@@ -13,6 +13,24 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a class="nav-link active" href="basic.html">basic</a>
+        </li>
+        <li class="nav-link">
+          <a class="nav-link active" href="advanced.html">advanced</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
     <h1>Plants by Yalamanchi Naga Anudeep</h1>
     <div class="container">
     <div class="row">
@@ -105,9 +123,9 @@
     </table>
     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group me-2" role="group" aria-label="First group">
-        <button type="button" class="btn btn-primary">Y</button>
-        <button type="button" class="btn btn-primary">A</button>
-        <button type="button" class="btn btn-primary">L</button>
+        <button type="button" class="btn btn-success">Y</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">L</button>
       </div>
 
       <div class="btn-group me-2" role="group" aria-label="Second group">
@@ -118,7 +136,31 @@
         <button type="button" class="btn btn-danger">A</button>
      </div>
     </div>
-  
+
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="basic.html">Basics</a>
+        <a class="dropdown-item" href="advanced.html">Advanced</a>
+      </div>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label for="form-label">Plant</label>
+        <input type="text" class="form-control" placeholder="Enter your plant">
+      </div>
+      <div class="form-check">
+        <label for="form-check-label">Sign up for newsletter ?</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button class="btgn btn-primary" type="submit">submit</button>
+    </form>  
+   
 
 
 </body>
